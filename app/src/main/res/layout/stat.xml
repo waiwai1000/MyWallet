@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly limit :"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/stat_monthly_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center_vertical"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="January"
+        android:textSize="20sp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit:"
+        android:textSize="15sp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/sum_limit_jan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/sum_spend_jan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Avg:"
+        android:textSize="15sp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/avg_jan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="February"
+        android:textSize="20sp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center_vertical"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit :"
+        android:textSize="15sp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_limit_feb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_spend_feb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily avg :"
+        android:textSize="15sp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/avg_feb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="March"
+        android:textSize="20sp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_vertical"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit:"
+        android:textSize="15sp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/sum_limit_mar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/sum_spend_mar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Avg:"
+        android:textSize="15sp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/avg_mar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="April"
+        android:textSize="20sp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit :"
+        android:textSize="15sp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_limit_apr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_spend_apr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily avg:"
+        android:textSize="15sp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/avg_apr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="May"
+        android:textSize="20sp"
+        android:layout_marginTop="295dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit:"
+        android:textSize="15sp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/sum_limit_may"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/sum_spend_may"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Avg:"
+        android:textSize="15sp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/avg_may"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="June"
+        android:textSize="20sp"
+        android:layout_marginTop="295dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center_vertical"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit :"
+        android:textSize="15sp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_limit_jun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_spend_jun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily avg:"
+        android:textSize="15sp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/avg_jun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="July"
+        android:textSize="20sp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit:"
+        android:textSize="15sp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/sum_limit_jul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/sum_spend_jul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Avg:"
+        android:textSize="15sp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/avg_jul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="August"
+        android:textSize="20sp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center_vertical"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit :"
+        android:textSize="15sp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_limit_aug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_spend_aug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily avg:"
+        android:textSize="15sp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/avg_aug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="September"
+        android:textSize="20sp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_vertical"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit:"
+        android:textSize="15sp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/sum_limit_sep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/sum_spend_sep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Avg:"
+        android:textSize="15sp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/avg_sep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="October"
+        android:textSize="20sp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center_vertical"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit :"
+        android:textSize="15sp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_limit_oct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_spend_oct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily avg"
+        android:textSize="15sp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/avg_oct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="November"
+        android:textSize="20sp"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_vertical"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit:"
+        android:textSize="15sp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/sum_limit_nov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/sum_spend_nov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Avg:"
+        android:textSize="15sp"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/avg_nov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="135dp"
+        android:gravity="center_vertical"
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="December"
+        android:textSize="20sp"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="250dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total limit :"
+        android:textSize="15sp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_limit_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total spend:"
+        android:textSize="15sp"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/sum_spend_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily avg"
+        android:textSize="15sp"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="240dp"
+        android:gravity="center_vertical"
+
+        />
+    <TextView
+        android:id="@+id/avg_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="325dp"
+        android:gravity="center_vertical"
+
+        />
+
+
+
+
+</RelativeLayout>

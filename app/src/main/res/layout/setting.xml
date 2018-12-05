@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="70dp"
+        android:text="Daily wallet limit"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/wallet_daily_limit"
+        android:paddingLeft="80dp"
+
+        android:text="RM"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/wallet_daily_limit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="130dp"
+        android:inputType="numberDecimal"
+        android:paddingLeft="30dp"
+        android:singleLine="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:text="Monthly Limit"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/current_monthly_limit"
+        android:paddingLeft="80dp"
+
+        android:text="RM"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/current_monthly_limit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="280dp"
+        android:inputType="numberDecimal"
+        android:paddingLeft="30dp"
+        android:singleLine="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="Update Limit"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="415dp"
+        android:paddingStart="40dp"
+
+        android:paddingEnd="10dp"
+
+        android:text="New Monthly Limit :"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/new_monthly_limit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="400dp"
+        android:inputType="numberDecimal"
+        android:paddingLeft="30dp"
+
+
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="465dp"
+        android:paddingStart="43dp"
+        android:paddingEnd="1dp"
+        android:paddingBottom="5dp"
+        android:text="New Daily Limit :"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/new_daily_limit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="450dp"
+        android:inputType="numberDecimal"
+ />
+
+    <Button
+        android:id="@+id/update_limit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:text="update"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
+
+
+</RelativeLayout>

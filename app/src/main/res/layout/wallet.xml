@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="70dp"
+        android:text="Daily wallet limit"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/wallet_daily_limit"
+        android:paddingLeft="80dp"
+
+        android:text="RM"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/wallet_daily_limit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="130dp"
+        android:inputType="numberDecimal"
+        android:paddingLeft="30dp"
+        android:singleLine="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:text="Today's usage"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/today_usage"
+        android:paddingLeft="80dp"
+
+        android:text="RM"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/today_usage"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="280dp"
+        android:inputType="numberDecimal"
+        android:paddingLeft="30dp"
+        android:singleLine="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:text="Add new usage"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/new_amount"
+        android:paddingStart="40dp"
+
+        android:paddingEnd="1dp"
+
+        android:text="Amount:RM"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/new_amount"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="430dp"
+        android:inputType="numberDecimal"
+        android:paddingLeft="30dp"
+
+
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="495dp"
+        android:paddingStart="43dp"
+        android:paddingEnd="1dp"
+        android:paddingBottom="5dp"
+        android:text="Details :"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/new_desc"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="480dp"
+
+
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="6"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/add_new_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:text="ADD"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
+
+</RelativeLayout>
